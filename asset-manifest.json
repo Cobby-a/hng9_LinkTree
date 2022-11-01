@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hng9_LinkTree/static/css/main.9b151d32.css",
+    "main.js": "/hng9_LinkTree/static/js/main.dd0371f7.js",
+    "static/media/ingressive.svg": "/hng9_LinkTree/static/media/ingressive.7a5414ca7d8a0dce368862d7e3a9c4d1.svg",
+    "static/media/prfimg.svg": "/hng9_LinkTree/static/media/prfimg.6624715b53be78d5eb8f25d6d26b9813.svg",
+    "static/media/zuri.svg": "/hng9_LinkTree/static/media/zuri.81983f18513418ff6cf5cb280e6a3932.svg",
+    "static/media/slack.svg": "/hng9_LinkTree/static/media/slack.d0a3313840ffb5c2122d68d009368958.svg",
+    "static/media/camera.svg": "/hng9_LinkTree/static/media/camera.e64b63ddd7298f174129.svg",
+    "static/media/github.svg": "/hng9_LinkTree/static/media/github.6f244905232b96b19c0b7c37227587e7.svg",
+    "static/media/sharemobile.svg": "/hng9_LinkTree/static/media/sharemobile.adc356e7af08656211a4213b4393c69e.svg",
+    "static/media/shareweb.svg": "/hng9_LinkTree/static/media/shareweb.9cdac38956db06eeb1b8a9359f0e2d3b.svg",
+    "index.html": "/hng9_LinkTree/index.html",
+    "main.9b151d32.css.map": "/hng9_LinkTree/static/css/main.9b151d32.css.map",
+    "main.dd0371f7.js.map": "/hng9_LinkTree/static/js/main.dd0371f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b151d32.css",
+    "static/js/main.dd0371f7.js"
+  ]
+}
