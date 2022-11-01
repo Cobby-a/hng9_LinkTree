@@ -10,6 +10,10 @@
     margin: auto;
     gap: 20px;
 }
+
+.footer img, p{
+    padding-top: 16px;
+}
 p{
 line-height: 24px;
 color: #667085;
