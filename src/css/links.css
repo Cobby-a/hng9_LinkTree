@@ -1,0 +1,52 @@
+.links{
+    margin-top: 48px;
+}
+
+
+.links a{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    background-color: #EAECF0;
+    border: 1px solid #EAECF0;
+    text-decoration: none;
+    color: #101828;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.link{
+    position: relative;
+}
+
+.links a:hover{
+    background-color: #D0D5DD;
+}
+
+.subtext{
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    text-align: center;
+    padding: 4px 2px;
+    background-color: #333333;
+    color: #f2f2f2;
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 0 0 8px 8px;
+    display: none;
+}
+
+.books:hover .subText-books,
+.book__python:hover .subText-book__python,
+.pitch:hover .subText-pitch,
+.book__design:hover .subText-book__design{
+    display: block;
+}

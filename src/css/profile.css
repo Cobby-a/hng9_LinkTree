@@ -1,0 +1,120 @@
+.profile{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding-top:64px;
+}
+.profile h1{
+    font-size:1.25rem;
+    margin-top:24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(16, 24, 40, 1);
+}
+img {
+    height:100%;
+    max-width:100%;
+}
+.share_button{
+    /* display:flex;
+    justify-content:flex-end;
+    width:600px;
+    margin:auto;
+    position:relative; */
+    margin: auto;
+    position: absolute;
+    top: 20px;
+    right: 30%;
+    display:flex;
+    justify-content:flex-end;
+}
+.share_button_wrap{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.sharemobile{
+    display: none;
+}
+
+.tooltip{
+    position:relative;
+}
+.tooltip .tooltip_text{
+    position: absolute;
+    background-color: rgba(16, 24, 40, 1);
+    text-align: center;
+    height: 34px;
+    width: 85px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    color: white;
+    margin-left: -100px;
+    margin-top: 5px;
+    /* z-index: 1; */
+    transition: all 0.3s ease-in-out;
+    display: none;
+    line-height: 18px;
+}
+.tooltip .tooltip_text::after{
+    content: " ";
+    position: absolute;
+    top:50%;
+    left:100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+
+}
+.share_button:hover .tooltip_text{
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.profile_img{
+    position: relative;
+}
+.profile_img::before{
+    content: "";
+    height: 98%;
+    width: 100%;
+    background-color: rgba(38, 38, 38, 0.8);
+    position: absolute;
+    border-radius: 100%;
+    background-image: url("../assets/camera.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 82%;
+    transform: scale(0);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.profile_img:hover::before{
+    transition: 0.5s ease-in-out;
+    transform: scale(1);
+}
+
+@media screen and (max-width: 600px) {
+    .sharemobile{
+        display: block;
+    }
+    .share_button{
+        right: 10%;
+    }
+    .shareWeb{
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .share_button{
+        right: 20%;
+    }
+}
